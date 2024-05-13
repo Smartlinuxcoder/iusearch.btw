@@ -1,14 +1,55 @@
+<!DOCTYPE html>
 <html>
 
 <head>
-    <meta name="theme-color" content="#000000">
-    <meta name="description" content="Arch linux rizz">
-    <link href="styles.css">
-    <script src="script.lua" />
+    <title>Virtual Bank Portal</title>
+    <link rel="icon" href="images/bank_logo.png">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.lua"></script>
 </head>
 
 <body>
-    <h1 class="header">Helllo mfs1</h1>
+    <header>
+        <div class="logo">
+            <img src="images/bank_logo.png" alt="Bank Logo">
+            <h1>Virtual Bank</h1>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#">Accounts</a></li>
+                <li><a href="#">Transfers</a></li>
+                <li><a href="#">Payments</a></li>
+                <li><a href="#">Tools</a></li>
+                <li><a href="#">Resources</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="welcome">
+            <h2>Welcome to Virtual Bank</h2>
+            <p>Manage your finances with ease and convenience.</p>
+        </section>
+
+        <section class="banking-tools">
+            <h2>Financial Tools</h2>
+            <div class="tool">
+                <h3>Budget Planner</h3>
+                <p>Create and track your budget.</p>
+                <a href="banking_tools/budget_planner.html">Go to Budget Planner</a>
+            </div>
+            <div class="tool">
+                <h3>Loan Calculator</h3>
+                <p>Estimate loan payments and interest.</p>
+                <a href="banking_tools/loan_calculator.html">Go to Loan Calculator</a>
+            </div>
+            <!-- Add more tools -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Virtual Bank. All rights reserved.</p>
+    </footer>
 </body>
 
 </html>
